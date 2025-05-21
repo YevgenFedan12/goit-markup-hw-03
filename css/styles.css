@@ -7,6 +7,10 @@ body{
     background-color: #fff;
 }
 
+img {
+    display: block;
+}
+
 ul,ol{
     list-style-type: none;
     margin: 0;
