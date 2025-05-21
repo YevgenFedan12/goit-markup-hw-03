@@ -107,14 +107,13 @@ a{
 .hero {
     background-color: #2e2f42;
     text-align: center;
+    padding-top: 188px;
     padding-bottom: 188px;
 
 
 }
 
 .hero-title {
-    padding-top: 188px;
-    padding-bottom: 188px;
     max-width: 496px;
     margin: 0 auto;
     color: #fff;
