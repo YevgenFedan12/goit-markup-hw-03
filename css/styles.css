@@ -9,10 +9,49 @@ body{
 
 ul,ol{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+.container{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 a{
     text-decoration: none;
+}
+
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+
 }
 
 .logo {
@@ -29,7 +68,14 @@ a{
     color: #2e2f42;
 }
 
+.header-logo{
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
 .nav-link{
+    padding: 24px 0;
+    display: block;
      font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -39,9 +85,12 @@ a{
 
 .contacts{
   font-style: normal;
+  margin-left: auto;
 }
 
 .contacts-link{
+    display: block;
+    padding: 24px 0;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -58,10 +107,16 @@ a{
 .hero {
     background-color: #2e2f42;
     text-align: center;
+    padding-bottom: 188px;
+
 
 }
 
 .hero-title {
+    padding-top: 188px;
+    padding-bottom: 48px;
+    max-width: 496px;
+    margin: 0 auto;
     color: #fff;
     font-size: 56px;
     font-weight: 700;
@@ -71,6 +126,10 @@ a{
 }
 
 .main-title-button {
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 16px 32px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -102,6 +161,14 @@ a{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+}
+
+.subtitle-list{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 24px;
+    width: ;
 }
 
 
