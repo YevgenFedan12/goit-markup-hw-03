@@ -141,7 +141,7 @@ a {
 
 .hero-title {
     max-width: 496px;
-    margin: 0 auto 20px;
+    margin: 0 auto 48px;
     color: #fff;
     font-size: 56px;
     font-weight: 700;
@@ -269,7 +269,7 @@ a {
 .features-section {
     background-color: #fff;
     padding: 120px 0;
-    text-align: center;
+    
 }
 
 .features-section-title {
@@ -280,6 +280,7 @@ a {
     color: #2e2f42;
     margin-bottom: 72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .features-list {
@@ -311,7 +312,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center;
+    text-align: left;
     margin-bottom: 8px;
 }
 
@@ -320,13 +321,12 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center;
+    text-align: left;
 }
 
 /* Footer */
 .page-footer {
     background-color: #2e2f42;
-    text-align: center;
     padding: 100px 0;
 }
 
@@ -353,5 +353,4 @@ a {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    margin: 0 auto;
 }
